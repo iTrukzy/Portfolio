@@ -7,6 +7,22 @@ document.getElementById('navbar__close').addEventListener('click', () => {
     navbarMovil.classList.remove('show')
 })
 
+document.getElementById('aboutMovil').addEventListener('click', () => {
+    navbarMovil.classList.remove('show')
+})
+
+document.getElementById('skillsMovil').addEventListener('click', () => {
+    navbarMovil.classList.remove('show')
+})
+
+document.getElementById('projectsMovil').addEventListener('click', () => {
+    navbarMovil.classList.remove('show')
+})
+
+document.getElementById('contactMovil').addEventListener('click', () => {
+    navbarMovil.classList.remove('show')
+})
+
 window.addEventListener('scroll', () => {
     let scrollUp = document.getElementById('scroll__up')
     let navbar = document.getElementById('navbar__site')
