@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Rick And Morty",
+        "description": "This project is about the Rick And Morty series that tries to search for the location of planets and how many residents there are on that planet",
+        "link": "https://william-rick-and-morty.netlify.app",
+        "img": "./img/img-proyects/rick-and-morty.png"
+    },
+    {
+        "id": "2",
+        "title": "Web Chat",
+        "description": "This project is about a chat in real time where you must register and log in, then enter the name of the room you want to enter with your friends",
+        "link": "https://william-chat.netlify.app",
+        "img": "./img/img-proyects/web-chat.png"
+    },
+    {
+        "id": "3",
+        "title": "Pokedex",
+        "description": "This project is about a Pokedex that has all the pokemon out there and can be filtered by type and name of the pokemon",
+        "link": "https://william-pokedex.netlify.app/#/",
+        "img": "./img/img-proyects/pokedex.png"
+    },
+    {
+        "id": "4",
+        "title": "Todo List",
+        "description": "This project is about a task manager that consists of adding tasks, deleting them and knowing if it is already completed or not",
+        "link": "https://william-todo-list.netlify.app",
+        "img": "./img/img-proyects/todo-list.png"
+    },
+    {
+        "id": "5",
+        "title": "Weather App",
+        "description": "This project is about giving information to the user about the current weather in their location",
+        "link": "https://william-weather-app.netlify.app",
+        "img": "./img/img-proyects/weather-app.png"
+    },
+    {
+        "id": "6",
+        "title": "Trivia Game",
+        "description": "This project is about a question and answer app",
+        "link": "https://william-trivia-game.netlify.app",
+        "img": "./img/img-proyects/trivia.png"
+    }
+]

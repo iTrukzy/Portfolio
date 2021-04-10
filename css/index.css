@@ -275,3 +275,188 @@ html, body {
         font-size: 35px;
     }
 }
+
+
+/* ========= SECTION SKILLS ========== */
+
+.section__skills {
+    text-align: center;
+}
+
+.section__skills h4 {
+    color: #01579b;
+    font-family: var(--secondary-font);
+    margin-bottom:40px;
+    font-size: 24px;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.skills__body .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #a3c9e6;
+    margin: 10px;
+    padding: 10px!important;
+    border-radius: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    height: 300px;
+}
+
+.skills__body .cards h5 {
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.skills__body .cards p {
+    color: #b9b9b9;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 768px) {
+    .section__skills {
+        padding: 20px 60px;
+    }
+    .section__skills h4 {
+        text-align: right;
+        font-size: 35px;
+    }
+}
+
+/* ======== SECTION PROJECTS ======== */
+
+.section__projects {
+    padding: 10px 0;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.section__projects h4 {
+    color: #01579b;
+    font-family: var(--secondary-font);
+    margin-bottom:40px;
+    font-size: 24px;
+}
+
+.projects__body img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.items__json {
+    margin-top: 10px;
+    position: relative;
+}
+
+.items__json h6 {
+    color: #2e2cb1;
+    margin-bottom: 20px;
+}
+
+.hover__items {
+    width: 100%;
+    position: absolute;
+    bottom: -20;
+    opacity: 0;
+    display: none;
+    padding: 20px;
+    background-color: #f2f2f2c5;
+}
+
+.items__json:hover .hover__items {
+    bottom: 0;
+    opacity: 1;
+    display: block;
+}
+
+.items__json a {
+    color: blue;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    border: 1px solid #8d8d8d;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.items__json a:hover {
+    background-color: #8d8d8d;
+    transition: all .3s;
+}
+
+@media only screen and (min-width: 768px) {
+    .section__projects {
+        padding: 20px 60px;
+    }
+    .section__projects h4 {
+        text-align: left;
+        font-size: 35px;
+    }
+}
+
+/* ========== SECTION CONTACT ======== */
+.section__contact {
+}
+
+.section__contact h4 {
+    color: #01579b;
+    font-family: var(--secondary-font);
+    margin-bottom:40px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section__contact textarea {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.section__contact form button {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .section__contact {
+        padding: 20px 60px;
+    }
+    .section__contact h4 {
+        text-align: right;
+        font-size: 35px;
+    }
+}
+
+/* ========== SECTION FOOTER ============= */
+.section__footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #01579b;
+    padding: 20px;
+}
+
+.section__footer div {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.section__footer div i {
+    font-size: 2rem;
+    color: #f2f2f2;
+}
+
+.section__footer div i:hover {
+    color: rgb(199, 199, 199);
+}
