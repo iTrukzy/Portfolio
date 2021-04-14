@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const printProjects = (data) => {
-        console.log(data)
         const projectsContainer = document.querySelector('.projects__body')
     
         const row = document.createElement('div')
